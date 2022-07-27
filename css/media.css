@@ -1,0 +1,84 @@
+@media screen and (max-width:1200px){
+	.tabs__item{
+		font-size: 1rem;
+		margin-right: 40px;
+	}
+
+}
+@media screen and (max-width:992px){
+	h1{
+		text-align: center;
+	}
+	h2{
+		text-align: center;
+	}
+	h2::before{
+		display: none;
+	}
+	h2::after{
+		content: '';
+		display: block;
+		width: 28px;
+		background: #d84d4d;
+		height: 9px;
+		position: absolute;
+		left: 50%;
+		margin-top: 10px;
+		margin-left: -14px;
+	}
+}
+@media screen and (max-width:768px){
+	.tabs__item{
+		display: block;
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
+	.gallary,.order-block{
+		width: 100%;
+	}
+	.gallary{
+		margin-top: 40px;
+	}
+	.photos img{
+		margin: 60px auto 10px auto;
+	}
+	.car_bg{
+		display: none;
+	}
+	.gallary__arrow{
+		display: none;
+	}
+}
+
+@media screen and (max-width:500px){
+	.contacts{
+		display: none;
+	}
+	h1{
+		font-size: 2.33rem;
+	}
+	.service__item{
+		width: 100%;
+		float: none;
+		text-align: center;
+		background-position: center top;
+		padding-top: 100px;
+		padding-left: 0px; 	
+	}
+}
+@media screen and (max-width:400px){
+	.contacts{
+		display: none;
+	}
+	h1{
+		font-size: 1.8rem;
+	}
+	.service__item{
+		width: 100%;
+		float: none;
+		text-align: center;
+		background-position: center top;
+		padding-top: 100px;
+		padding-left: 0px; 	
+	}
+}
